@@ -24,9 +24,10 @@ public async render(): Promise<void> {
   const pageUrl = this.context.pageContext.site.serverRequestPath;
 
   const response = await this.context.spHttpClient.get(
-    `${this.context.pageContext.web.absoluteUrl}/_api/web/getfilebyserverrelativeurl('${pageUrl}')/ListItemAllFields?$select=Author/Title,Author/JobTitle,Author/EMail&$expand=Author`,
+    `${this.context.pageContext.web.absoluteUrl}/_api/web/getfilebyserverrelativeurl('${pageUrl}')/ListItemAllFields?$expand=Author&$select=Author/Title,Author/JobTitle,Author/EMail`,
     SPHttpClient.configurations.v1
   );
+
 
   const item = await response.json();
   const author = item.Author;
