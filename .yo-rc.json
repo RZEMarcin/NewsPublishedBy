@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.15.1",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "news-published-by",
+    "libraryId": "3afdb671-97a6-4dcb-80a1-ec322feb98f0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "news-published-by",
+    "solutionShortDescription": "news-published-by description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

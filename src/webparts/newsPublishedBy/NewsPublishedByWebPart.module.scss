@@ -1,0 +1,33 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.authorBlock {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #323130;
+  margin-top: 10px;
+}
+
+.avatar {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.job {
+  font-size: 12px;
+  color: #605e5c;
+}
