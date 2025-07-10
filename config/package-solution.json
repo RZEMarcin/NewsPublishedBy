@@ -3,7 +3,7 @@
   "solution": {
     "name": "news-published-by-client-side-solution",
     "id": "3afdb671-97a6-4dcb-80a1-ec322feb98f0",
-    "version": "1.0.0.15",
+    "version": "1.0.0.16",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
